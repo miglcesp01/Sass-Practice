@@ -1,0 +1,20 @@
+$number:1;
+$number:10px;
+$string1:'DAWM';
+$string2:none;
+$color:red;
+//Pueden poner en hsl, hexadecimal,nombre
+//o rgb
+$list: 1px solid red;
+$boolean:true;
+$colores: (
+    primary: red,
+    secondary: green,
+    tertiary: blue
+);
+
+body{
+    @debug $number;
+    @debug type-of($list);
+    color: map-get($map: $colores, $key: "primary" ) 
+}

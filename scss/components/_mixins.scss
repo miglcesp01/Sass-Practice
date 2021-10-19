@@ -1,0 +1,18 @@
+@import "datos";
+
+@mixin h1($breakpoint) {
+    color: map-get($map: $colores, $key: "tertiary" );
+
+    // Repite el selector padre
+    &:hover{
+        background:map-get($map: $colores, $key: "secondary" );
+    }
+
+    background: $breakpoint;
+}
+
+.button{
+    @include h1(blue);
+    font-weight: 200px;
+}
+

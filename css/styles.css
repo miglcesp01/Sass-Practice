@@ -1,0 +1,112 @@
+.menu {
+  margin: 0;
+}
+.menu .link {
+  text-decoration: none;
+  grid-template-columns: 10px 10px;
+  grid-template-rows: auto;
+  grid-template-areas: header header;
+}
+
+body {
+  color: red;
+}
+
+body {
+  color: red;
+}
+
+.button {
+  color: blue;
+  background: blue;
+  font-weight: 200px;
+}
+.button:hover {
+  background: green;
+}
+
+.cols-1 {
+  width: 5%;
+}
+
+.cols-2 {
+  width: 10%;
+}
+
+.cols-3 {
+  width: 15%;
+}
+
+.cols-4 {
+  width: 20%;
+}
+
+.cols-5 {
+  width: 25%;
+}
+
+.cols-6 {
+  width: 30%;
+}
+
+.cols-7 {
+  width: 35%;
+}
+
+.cols-8 {
+  width: 40%;
+}
+
+.cols-9 {
+  width: 45%;
+}
+
+.cols-10 {
+  width: 50%;
+}
+
+.cols-11 {
+  width: 55%;
+}
+
+.cols-12 {
+  width: 60%;
+}
+
+.cols-13 {
+  width: 65%;
+}
+
+.cols-14 {
+  width: 70%;
+}
+
+.cols-15 {
+  width: 75%;
+}
+
+.cols-16 {
+  width: 80%;
+}
+
+.cols-17 {
+  width: 85%;
+}
+
+.cols-18 {
+  width: 90%;
+}
+
+.cols-19 {
+  width: 95%;
+}
+
+.cols-20 {
+  width: 100%;
+}
+
+.herencia {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */

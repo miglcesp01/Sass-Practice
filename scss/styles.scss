@@ -1,0 +1,9 @@
+@import "components/nesting";
+@import "components/datos";
+@import "components/mixins";
+@import "components/ciclos";
+@import "components/herencia";
+
+.herencia {
+    @extend %padre_heredado;
+}
